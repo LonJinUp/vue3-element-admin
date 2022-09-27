@@ -1,0 +1,80 @@
+html,body,#app{
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  line-height: 1.375;
+  outline: none;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 14px;
+  -webkit-overflow-scrolling: touch;
+}
+
+body, h1, h2, h3, h4, h5, h6, dl, dd, p, th, td, form, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, dl, dd, p, form, figure {
+  border: 0;
+}
+
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*a:hover{color: #fff;}*/
+b, em, i {
+  font-style: normal;
+}
+
+/*h1,h2,h3,h4,h5,h6{ font-weight: normal;font-size: 14px;}*/
+button, input, optgroup, select, textarea {
+  border: none;
+  vertical-align: middle;
+  font-family: 'Microsoft Yahei';
+  outline: none;
+}
+
+button, input {
+  border-radius: 0;
+  padding: 0;
+}
+
+textarea, input {
+  -webkit-user-modify: read-write-plaintext-only; /*Android ä¸‹ input focus æ¶ˆé™¤é«˜äº®å¤–æ¡†*/
+}
+
+textarea {
+  resize: none;
+}
